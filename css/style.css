@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  box-sizing: border-box
+}
+body {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 16px;
+  color: #666666;
+  margin: 0px;
+}
+.img-100 {
+  width: 100%;
+  height: auto
+}
+.container {
+  width: 80%;
+  margin: 0 auto
+}
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #F7B247
+}
+.logo {
+  float: left
+}
+.menu {
+  float: right;
+  padding-top: 18px
+}
+.menu a {
+  padding: 10px 20px;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold
+}
+.menu a:hover {
+  color: #3847E8
+}
+main {
+  width: 100%;
+  min-height: 400px;
+  clear: both
+}
+.w-25 {
+  width: 25%;
+  padding: 15px;
+  float: left
+}
+.vien {
+  width: 100%;
+  min-height: 200px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin: 20px 0
+}
+.bo-goc {
+  border-radius: 10px
+}
+.tour {
+  color: blue
+}
+.gia {
+  color: red;
+  font-weight: bold
+}
+footer{
+	width: 100%;height: 50px;background-color: #F7B247; clear: both;color: white;text-align: center;line-height: 50px
+}
+.w-40{
+	width: 40%;min-height: 300px;padding: 15px;float: left
+}
+.w-60{
+	width: 60%;min-height: 300px;padding: 15px;float: right
+}
+.text-xanh{
+	color: blue
+}
+.vien-xam{
+	border: 1px solid gray;min-height: 300px;border-radius: 5px;padding: 10px;margin-bottom: 15px
+}
+.form-control{
+	padding: 8px;margin: 10px 0;width: 100%
+}
+.nut-gui{
+	padding: 10px 20px;background-color: #46A3F0;color: white;border-radius: 20px;margin-right: 15px;cursor: pointer
+}
+.xoa{
+	padding: 10px 20px;background-color: #F06D6F;color: white;border-radius: 20px;cursor: pointer
+}
+.nut-gui:hover{
+	background-color: #1D22E5
+}
+.xoa:hover{
+	background-color: red
+}
+.btn{
+    padding: 10px 20px;background-color: #3F7BF4;color: white;cursor: pointer;border: none;border-radius: 5px
+}
+.btn:hover{
+    background-color: #1F1DF1
+}
